@@ -358,7 +358,7 @@ subm = Menu(menu)
 menu.add_cascade(label="File", menu=subm)
 subm.add_command(label="Memo", command=me)
 subm.add_command(label="Save")
-subm.add_command(label="SaveAs")
+subm.add_command(label="Save As")
 subm.add_command(label="Print")
 subm.add_command(label="Exit", command=ex)
 
