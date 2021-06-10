@@ -6,7 +6,7 @@ import tkinter.messagebox
 root = Tk()
 canvas = Canvas(root, width=500, height=600)
 root.title("Complete Dictionary of SEO")
-image = ImageTk.PhotoImage(Image.open("bgimage9.dms"))
+image = ImageTk.PhotoImage(Image.open("bgimage9.jpeg"))
 canvas.create_image(0, 0, anchor=NW, image=image)
 textin = StringVar()
 exlist = {
@@ -370,7 +370,7 @@ subm2 = Menu(menu)
 menu.add_cascade(label="About", menu=subm2)
 subm2.add_command(label="Contributors", command=cont)
 
-TITLE = Label(root, text='WELCOME TO COMPLETE SEO DICTIONARY', font=('none 15 bold'), bg='silver')
+TITLE = Label(root, text='   WELCOME TO COMPLETE SEO DICTIONARY  ', font=('none 15 bold'), bg='silver')
 TITLE.place(x=85, y=3, )
 
 lab = Label(root, text='Keyword :', font=('none 15 bold'), bg='silver')
