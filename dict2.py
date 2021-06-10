@@ -374,7 +374,7 @@ TITLE = Label(root, text='   WELCOME TO COMPLETE SEO DICTIONARY  ', font=('none 
 TITLE.place(x=85, y=3, )
 
 lab = Label(root, text='Keyword :', font=('none 15 bold'), bg='silver')
-lab.place(x=100, y=100, )
+lab.place(x=90, y=100, )
 
 ent = Entry(root, width=24, font=('none 12 bold'), textvar=textin, bg='white')
 ent.place(x=200, y=100, )
@@ -389,7 +389,7 @@ output = Text(root, width=23, height=10, font=('Time 15 bold'), fg="black")
 output.place(x=200, y=200)
 
 labb = Label(root, text='Result      :', font=('non 15 bold'), bg='silver')
-labb.place(x=100, y=200)
+labb.place(x=90, y=200)
 
 but1 = Button(root, padx=2, pady=2, text='Exit', command=exitt, bg='powder blue', font=('none 15 bold'))
 but1.place(x=190, y=440)
