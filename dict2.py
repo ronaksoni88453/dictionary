@@ -383,7 +383,7 @@ but = Button(root, padx=2, pady=2, text='Search', command=clk, bg='powder blue',
 but.place(x=250, y=150)
 
 but4 = Button(root, padx=2, pady=2, text='Clear', font=('none 15 bold'), bg='powder blue', command=clr)
-but4.place(x=275, y=420)
+but4.place(x=315, y=440)
 
 output = Text(root, width=23, height=10, font=('Time 15 bold'), fg="black")
 output.place(x=200, y=200)
@@ -392,7 +392,7 @@ labb = Label(root, text='Result      :', font=('non 15 bold'), bg='silver')
 labb.place(x=100, y=200)
 
 but1 = Button(root, padx=2, pady=2, text='Exit', command=exitt, bg='powder blue', font=('none 15 bold'))
-but1.place(x=175, y=420)
+but1.place(x=190, y=440)
 
 canvas.pack()
 root.mainloop()
